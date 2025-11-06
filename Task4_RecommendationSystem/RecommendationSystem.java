@@ -4,12 +4,13 @@ public class RecommendationSystem {
 
     private static final Map<String, List<String>> userPreferences = new HashMap<>();
 
-    static {
-        userPreferences.put("Ajith", Arrays.asList("Inception", "Interstellar", "Avengers", "Iron Man"));
-        userPreferences.put("Divya", Arrays.asList("Inception", "Titanic", "The Notebook", "Avatar"));
-        userPreferences.put("Nikhil", Arrays.asList("Iron Man", "Avengers", "Captain America", "Thor"));
-        userPreferences.put("Ravi", Arrays.asList("Avatar", "Titanic", "Jurassic Park", "Inception"));
-    }
+   static {
+    userPreferences.put("Ajith", Arrays.asList("Ala Vaikunthapurramuloo", "Pushpa", "Arya", "S/O Satyamurthy"));
+    userPreferences.put("Divya", Arrays.asList("Hi Nanna", "Geetha Govindam", "Premam", "Majili"));
+    userPreferences.put("Nikhil", Arrays.asList("Karthikeya", "Spy", "Ekkadiki Pothavu Chinnavada", "18 Pages"));
+    userPreferences.put("Ravi", Arrays.asList("RRR", "Baahubali", "Magadheera", "Eega"));
+}
+
 
     public static List<String> recommendMovies(String user) {
         List<String> currentUserLikes = userPreferences.get(user);
