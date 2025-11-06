@@ -10,7 +10,7 @@ It recommends movies to a user based on shared preferences with other users.
 
 ## Example Output
 User: Ajith  
-Liked Movies: [Inception, Interstellar, Avengers, Iron Man]  
+Liked Movies: [Ala Vaikunthapurramuloo, Pushpa , Arya, S/O Satyamurthy]  
 Recommended Movies: [Captain America, Thor]
 
 ## How to Run
