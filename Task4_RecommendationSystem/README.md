@@ -11,7 +11,7 @@ It recommends movies to a user based on shared preferences with other users.
 ## Example Output
 User: Ajith  
 Liked Movies: [Ala Vaikunthapurramuloo, Pushpa , Arya, S/O Satyamurthy]  
-Recommended Movies: [Captain America, Thor]
+Recommended Movies: [Julai , Race Gurram]
 
 ## How to Run
 1. Open terminal in project folder.
